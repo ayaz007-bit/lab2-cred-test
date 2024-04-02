@@ -4,5 +4,5 @@ jobs:
   run-shell-command
   runs-on: ubunto-latest
   steps:
-  - name:Echo a string
+  - name: Echo a string
   run: echo "hello this is first github actions yaml script"
