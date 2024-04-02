@@ -1,7 +1,8 @@
 name: run shell command
 on: [push]
 jobs:
-  run-shell-command
+  run-shell-command:
+    runs-on: unbuntu-latest
     steps:
   - name: Echo a string
   run: echo "hello this is first github actions yaml script"
