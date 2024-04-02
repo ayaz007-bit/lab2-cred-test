@@ -1,0 +1,9 @@
+name: run shell command
+on: [push]
+
+jobs:
+  Check_failure_on_line_4:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Echo a string
+      run: echo "hello this is first github actions yaml script"
